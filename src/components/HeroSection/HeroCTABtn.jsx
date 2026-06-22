@@ -6,7 +6,7 @@ function HeroCTABtn() {
           View my work
         </a>
       </button>
-      <button className="text-white border hover:bg-(--accent)/20 hover:border-(--accent) text-center border-white/20 px-4 py-2 sm:px-5 px-4 py-2 sm:py-3 rounded-l-full rounded-r-full cursor-pointer text-sm transition-all duration-300 ease-in-out">
+      <button className="hidden justify-center items-center lg:flex text-white border hover:bg-(--accent)/20 hover:border-(--accent) text-center border-white/20 px-4 py-2 sm:px-5 px-4 py-2 sm:py-3 rounded-l-full rounded-r-full cursor-pointer text-sm transition-all duration-300 ease-in-out">
         <a href="#Contact">
           Get in touch
         </a>

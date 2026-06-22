@@ -10,7 +10,7 @@ function NavBar({ activeSection }) {
   const MobileNavBarTabs = NavBarTabs.filter((tab) => tab !== "Contact");
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-(--primary) text-(--secondary) px-10 sm:px-20 py-7.75 lg:px-20 lg:py-8">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-(--primary) text-(--secondary) px-10 sm:px-20 py-5 sm:py-7.75 lg:px-20 lg:py-8">
       <div className="flex justify-between items-center">
         <NavLogo />
 
@@ -25,7 +25,7 @@ function NavBar({ activeSection }) {
 
         {/* Mobile Hamburger */}
         <button
-          className="lg:hidden border border-white/20 w-fit h-fit p-2 rounded-full flex justify-center items-center cursor-pointer"
+          className="lg:hidden border border-white/20 w-8 h-8 p-2 rounded-full flex justify-center items-center cursor-pointer"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           <i
