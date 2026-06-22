@@ -2,9 +2,9 @@ import ReviewCard from "./ReviewCard";
 function ReviewCardContainer(){
   return(
     <div className="flex flex-wrap lg:flex-nowrap gap-5 sm:gap-10 lg:gap-6 items-center justify-between">
-      <ReviewCard Review="Eliott delivered our redesign in record time and the quality blew us away. Our conversion rate jumped 28% in the first month. Absolutely recommend." ImgSrc="/bharatTamang.jpg" Name="Bharat Tamang" Post="CPO, Novu"></ReviewCard>
-      <ReviewCard Review="Working with Eliott is a dream. He asks the right questions, moves fast, and the final result always exceeds what we imagined. Our best hire of 2024." ImgSrc="/GkKumawat.jpg" Name="GK Kumawat" Post="Founder, Finlo"></ReviewCard>
-      <ReviewCard Review="We had a tight deadline and a vague brief. Eliott turned both into a polished site in under two weeks. Clean code, zero hand-holding needed." ImgSrc="/gofiwaKgang.jpg" Name="Gofiwa Kgang" Post="Creative Director, Orea"></ReviewCard>
+      <ReviewCard Review="Aarav was easy to work with and delivered exactly what was discussed. Communication was clear throughout the project, and the final website looked professional and polished." ImgSrc="/bharatTamang.jpg" Name="Bharat Tamang" Post="Small Business Owner"></ReviewCard>
+      <ReviewCard Review="The attention to detail and design quality stood out immediately. Every revision was handled quickly, and the final result exceeded our expectations." ImgSrc="/GkKumawat.jpg" Name="GK Kumawat" Post="Startup Founder"></ReviewCard>
+      <ReviewCard Review="Fast delivery, clean code, and a smooth overall experience. The website works perfectly across devices and has received great feedback from our customers." ImgSrc="/gofiwaKgang.jpg" Name="Gofiwa Kgang" Post="Local Business Client"></ReviewCard>
     </div>
   )
 }
