@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
-import NavBar from "./components/NavBar";
-import HeroSection from "./components/HeroSection";
-import ServiceSection from "./components/ServiceSection";
-import AboutSection from "./components/AboutSection";
-import ReviewSection from "./components/ReviewSection";
-import ContactSection from "./components/ContactSection";
-import MobileContactBtn from "./components/MobileContactBtn";
+import NavBar from "./components/NavBar/NavBar";
+import HeroSection from "./components/HeroSection/HeroSection";
+import ServiceSection from "./components/ServiceSection/ServiceSection";
+import AboutSection from "./components/AboutSection/AboutSection";
+import ReviewSection from "./components/ReviewSection/ReviewSection";
+import ContactSection from "./components/ContactSection/ContactSection";
 function App() {
   const [activeSection, setActiveSection] = useState("Services");
 
@@ -48,10 +47,7 @@ function App() {
 
       <ReviewSection />
 
-      <div className="lg:flex hidden">
-        <ContactSection />
-      </div>
-      <MobileContactBtn />
+      <ContactSection />
     </div>
   );
 }
