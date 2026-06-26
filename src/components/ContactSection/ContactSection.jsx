@@ -32,13 +32,13 @@ function ContactSection() {
   return (
     <section
       id="Contact"
-      className="bg-(--primary) px-10 sm:px-20 py-20 min-h-screen flex justify-center items-center lg:px-20"
+      className="bg-(--primary) sm:px-20 ptn-20 min-h-screen flex justify-center items-center lg:px-20"
     >
       <div className="section lg:rounded-4xl w-full">
         <div className="bg-orb orb-1"></div>
         <div className="bg-orb orb-2"></div>
 
-        <div className="flex flex-col xl:flex-row justify-evenly items-center mx-auto gap-15 xl:gap-40 px-10 py-20 lg:p-20 lg:rounded-4xl shadow-2xl">
+        <div className="flex flex-col xl:flex-row justify-evenly items-center mx-auto gap-15 xl:gap-40 px-5 py-20 lg:p-20 lg:rounded-4xl shadow-2xl">
           {/* Left Column */}
           <div className="flex flex-col min-w-[40%] items-start justify-center gap-10 xl:gap-6">
 

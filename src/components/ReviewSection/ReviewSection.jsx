@@ -39,7 +39,7 @@ function ReviewSection() {
   return (
     <section
       id="Reviews"
-      className="bg-(--secbg) min-h-screen flex flex-col items-start justify-center gap-10 lg:gap-6 px-10 sm:px-20 py-20 scroll-mt-10"
+      className="bg-(--secbg) min-h-screen flex flex-col items-start justify-center gap-10 lg:gap-6 px-5 sm:px-20 py-20 scroll-mt-10"
     >
       {/* Section Header */}
       <div className="flex flex-col justify-center items-start gap-2 mb-5">

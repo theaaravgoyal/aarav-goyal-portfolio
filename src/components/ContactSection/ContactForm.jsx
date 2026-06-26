@@ -57,7 +57,7 @@ Sent from Portfolio Website
             className={inputClass}
             type="text"
             id="name"
-            placeholder="Jane Smith"
+            placeholder="Name"
             value={formData.name}
             onChange={handleChange}
             required
@@ -71,7 +71,7 @@ Sent from Portfolio Website
             className={inputClass}
             type="email"
             id="email"
-            placeholder="jane@company.com"
+            placeholder="abc@xyz.com"
             value={formData.email}
             onChange={handleChange}
             required
@@ -112,7 +112,7 @@ Sent from Portfolio Website
 
       {/* Submit Button */}
       <button
-        className="cursor-pointer bg-(--accent) w-fit px-5 py-3 mt-5 sm:mt-3 lg:mt-7 xl:mt-3 rounded-full self-center hover:bg-(--accent)/50 transition-all duration-300 ease-in-out text-sm sm:text-base"
+        className="cursor-pointer bg-(--accent) w-fit px-5 py-3 mt-5 sm:mt-3 lg:mt-7 xl:mt-3 rounded-full hover:bg-(--accent)/50 transition-all duration-300 ease-in-out text-sm sm:text-base"
         type="submit"
       >
         Send Message <i className="fa-solid fa-arrow-right text-xs"></i>

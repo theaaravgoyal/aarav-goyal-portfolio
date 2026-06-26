@@ -7,7 +7,7 @@ function HeroSection() {
   const heroDescLg =
     "Frontend Developer & Video Editor. Currently pursuing B.Tech in CSE (AI), I combine design, development, and storytelling to help businesses and creators establish a strong digital presence.";
   const heroDescSm =
-    "Frontend Developer, Video Editor, and B.Tech CSE (AI) student passionate about building impactful digital experiences. I blend design, development, and visual storytelling to create modern websites and engaging content that help businesses and creators stand out online. My experience spans frontend technologies, graphic design, video production, and user-focused design, allowing me to deliver solutions that are both visually appealing and functional. Driven by curiosity and continuous learning, I am constantly refining my skills and exploring new technologies to create meaningful digital products.";
+    "Frontend Developer, Video Editor, and B.Tech CSE (AI) student passionate about building impactful digital experiences. I blend design, development, and visual storytelling to create modern websites and engaging content that help businesses and creators stand out online. My experience spans frontend technologies, graphic design, video production, and user-focused design, allowing me to deliver solutions that are both visually appealing and functional.";
   const button1Text = "View my work";
   const button2Text = "Get in touch";
   const lgText = "Open to projects";
@@ -26,7 +26,7 @@ function HeroSection() {
 
       <section
         id="Home"
-        className="bg-(--primary) min-h-screen flex flex-col justify-center items-center gap-15 px-10 sm:px-20 pt-30 pb-20 lg:flex-row lg:gap-40 lg:justify-evenly"
+        className="bg-(--primary) min-h-screen flex flex-col justify-center items-center gap-15 px-5 sm:px-20 pt-30 pb-20 lg:flex-row lg:gap-40 lg:justify-evenly"
       >
         {/* Left Column */}
         <div>

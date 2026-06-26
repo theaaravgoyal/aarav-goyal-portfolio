@@ -27,7 +27,7 @@ function AboutSection() {
   return (
     <section
       id="About"
-      className="bg-(--primary) flex flex-col min-h-screen gap-10 lg:flex-row items-center justify-evenly lg:gap-40 px-10 sm:px-20 py-20 scroll-mt-8"
+      className="bg-(--primary) flex flex-col min-h-screen gap-10 lg:flex-row items-center justify-evenly lg:gap-40 px-5 sm:px-20 py-20 scroll-mt-8"
     >
       {/* About Image */}
       <div className="w-full max-w-200 h-[400px] rounded-4xl overflow-hidden">
@@ -62,7 +62,7 @@ function AboutSection() {
             </p>
 
             {/* Tools List */}
-            <ul className="text-white flex gap-3 flex-wrap justify-start items-center lg:justify-start">
+            <ul className="text-white flex gap-1 sm:gap-3 flex-wrap justify-start items-center lg:justify-start">
               {tools.map((tool, index) => (
                 <li
                   key={index}

@@ -10,7 +10,7 @@ function NavBar({ activeSection }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-(--primary) text-(--secondary) px-10 sm:px-20 py-5 sm:py-7.75 lg:px-20 lg:py-8">
+    <nav className="fixed top-0 left-0 w-full z-50 bg-(--primary) text-(--secondary) px-5 sm:px-20 py-5 sm:py-7.75 lg:px-20 lg:py-8">
       <div className="flex justify-between items-center">
         {/* Website Logo */}
         <div className="w-14 sm:w-18.75">

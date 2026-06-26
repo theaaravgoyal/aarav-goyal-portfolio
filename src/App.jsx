@@ -5,6 +5,7 @@ import ServiceSection from "./components/ServiceSection/ServiceSection";
 import AboutSection from "./components/AboutSection/AboutSection";
 import ReviewSection from "./components/ReviewSection/ReviewSection";
 import ContactSection from "./components/ContactSection/ContactSection";
+import FooterSection from "./components/FooterSection/FooterSection";
 function App() {
   const [activeSection, setActiveSection] = useState("Services");
 
@@ -36,7 +37,7 @@ function App() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-(--primary) overflow-x-hidden">
+    <>
       <NavBar activeSection={activeSection} />
 
       <HeroSection />
@@ -48,7 +49,9 @@ function App() {
       <ReviewSection />
 
       <ContactSection />
-    </div>
+
+      <FooterSection />
+    </>
   );
 }
 
