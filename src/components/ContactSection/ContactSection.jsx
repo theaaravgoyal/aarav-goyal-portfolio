@@ -6,45 +6,23 @@ function ContactSection() {
   const contactStatus = "GET IN TOUCH";
   const contactHeader = "Let's Build Something Great";
   const desc =
-    "Have a project in mind or need help with web development or video editing? I'd love to hear about your ideas and discuss how we can bring them to life.";
+    "Have a project in mind or need help with web development or video editing? I'd love to hear about your ideas, understand your goals, and discuss how we can bring your vision to life. Whether you're starting from scratch or improving an existing project, let's work together to create something functional, visually appealing, and impactful.";
   // --------------
-
-  // --- DATA ---
-  const contactLinks = [
-    {
-      iconClass: "fa-regular fa-envelope",
-      link: "mailto:aaravgoyal.media@gmail.com",
-      linkName: "Email",
-    },
-    {
-      iconClass: "fa-brands fa-instagram",
-      link: "https://www.instagram.com/aarav_._goyal",
-      linkName: "Instagram",
-    },
-    {
-      iconClass: "fa-brands fa-whatsapp",
-      link: "https://wa.me/919660074270",
-      linkName: "Whatsapp",
-    },
-  ];
-  // ------------
 
   return (
     <section
       id="Contact"
-      className="bg-(--primary) sm:px-20 ptn-20 min-h-screen flex justify-center items-center lg:px-20"
+      className="bg-(--primary) md:px-20 md:pt-20 min-h-screen flex justify-center items-center lg:px-20"
     >
-      <div className="section lg:rounded-4xl w-full">
+      <div className="section sm:px-10 lg:px-10 md:rounded-4xl w-full">
         <div className="bg-orb orb-1"></div>
         <div className="bg-orb orb-2"></div>
 
-        <div className="flex flex-col xl:flex-row justify-evenly items-center mx-auto gap-15 xl:gap-40 px-5 py-20 lg:p-20 lg:rounded-4xl shadow-2xl">
+        <div className="flex flex-col xl:flex-row justify-evenly items-start lg:items-center mx-auto gap-15 xl:gap-40 px-5 py-20 lg:p-20 lg:rounded-4xl shadow-2xl">
           {/* Left Column */}
-          <div className="flex flex-col min-w-[40%] items-start justify-center gap-10 xl:gap-6">
-
+          <div className="flex flex-col xl:max-w-[40%] items-start justify-center gap-10 xl:gap-6">
             {/* Heading Block */}
             <div className="flex flex-col justify-center items-start gap-6 lg:gap-3">
-
               {/* Status badge — desktop only */}
               <div className="hidden lg:flex gap-2 justify-start items-center self-start">
                 <RedPingDot />
@@ -60,33 +38,6 @@ function ContactSection() {
               <p className="text-(--secondary) text-sm sm:text-base text-start">
                 {desc}
               </p>
-            </div>
-
-            {/* Contact Links */}
-            <div className="flex flex-row lg:flex-col gap-5 lg:gap-3">
-              {contactLinks.map((item, index) => (
-                <a
-                  key={index}
-                  href={item.link}
-                  target={item.link.startsWith("http") ? "_blank" : "_self"}
-                  rel={
-                    item.link.startsWith("http")
-                      ? "noopener noreferrer"
-                      : undefined
-                  }
-                  className="flex justify-start items-center gap-2 group"
-                >
-                  {/* Icon */}
-                  <span className="bg-(--secbg) p-4 rounded-xl flex justify-center items-center text-sm text-(--secondary) group-hover:text-white group-hover:bg-(--accent)/20 transition-all duration-300 ease-in-out">
-                    <i className={item.iconClass} />
-                  </span>
-
-                  {/* Link Name — desktop only */}
-                  <span className="montserrat-normal text-sm text-(--secondary) hidden lg:block group-hover:text-white transition-all duration-300 ease-in-out">
-                    {item.linkName}
-                  </span>
-                </a>
-              ))}
             </div>
           </div>
 
